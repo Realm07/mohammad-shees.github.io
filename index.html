@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shees's Arcade</title>
+
+    <link rel="stylesheet" href="public/index.css">
+    <link rel="icon" type="image/png" href="iconalt1.png">
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.153.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.153.0/examples/jsm/"
+          
+        }
+      }
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    
+  </head>
+  <body>
+    <div id="heading">
+      <h1> </h1>
+      <div class=" "></div>
+    </div>
+    <div id="progress-container">
+      <div id="progress">LOADING 0/100</div>
+    </div>
+    <img src="homeicon.png" alt="Home" id="Home" style="position: fixed; bottom: 0; right: 20px; width: 2.5%; cursor: pointer;">
+    
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
